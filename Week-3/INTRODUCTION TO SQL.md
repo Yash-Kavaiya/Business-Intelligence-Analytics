@@ -68,4 +68,17 @@ Here's the table in markdown format:
 
 Each row in the table represents a customer, with their details spread across the columns. For example, the customer with Cust ID 1 is named Rajeswari, goes by the contact name Raji, lives at 57, Rome in Rome, Italy, and has the postal code 12209.
 
+Sure, let's go through the different types of keys in a Database Management System (DBMS):
+
+1. **Primary Key**¹²: A primary key is a unique identifier for a record in a table. It must contain unique values and cannot be null. For example, in an Employee table, the Employee_ID could be a primary key.
+
+2. **Candidate Key**¹²: A candidate key is an attribute or set of attributes that can uniquely identify a tuple. Except for the primary key, the remaining attributes are considered candidate keys. For example, in an Employee table, the Employee_ID, Passport_Number, and License_Number could all be candidate keys.
+
+3. **Super Key**¹²: A super key is a set of one or more keys that can uniquely identify a record in a table. A super key is a superset of a candidate key. For example, in an Employee table, the combination of Employee_ID and Employee_Name could be a super key.
+
+4. **Foreign Key**¹²: A foreign key is a field in a table that matches the primary key of another table. It is used to establish a link between the data in two tables. For example, in an Employee table, the Department_ID could be a foreign key that matches the primary key in a Department table.
+
+5. **Alternate Key**¹: An alternate key is a key that can be work as a primary key. Basically it is a candidate key that currently is not primary key.
+
+Each of these keys plays a crucial role in maintaining the integrity and functionality of a relational database. They help to ensure that the data stored in the database is accurate, consistent, and reliable.
 
